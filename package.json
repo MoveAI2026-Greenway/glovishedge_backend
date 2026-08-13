@@ -1,0 +1,18 @@
+{
+  "name": "glovishedge-backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "GlovisHEDGE 백엔드 — LLM 게이트 · 규정 RAG 색인 · 시세 프록시 (MOVE AI CHALLENGE 2026 · 팀 GREENWAY)",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js",
+    "build:rag": "node server/rag/build-index.mjs"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
