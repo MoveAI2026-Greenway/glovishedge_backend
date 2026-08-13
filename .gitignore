@@ -46,3 +46,11 @@ out/
 src/main/resources/application-local.yml
 
 *.log
+
+### Node (searoute-service, legacy Express prototype) ###
+node_modules/
+dist/
+.env.local
+.DS_Store
+.vite/
+design/figma-cache.json
