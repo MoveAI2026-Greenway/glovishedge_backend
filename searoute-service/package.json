@@ -1,0 +1,20 @@
+{
+  "name": "searoute-service",
+  "version": "1.0.0",
+  "description": "GlovisHEDGE internal sea-route sidecar — wraps searoute-ts for Spring Boot's GET /api/sea-distance. Not exposed to the browser directly.",
+  "private": true,
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test test/route.test.js"
+  },
+  "license": "UNLICENSED",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "4.21.2",
+    "searoute-ts": "2.2.0"
+  }
+}
